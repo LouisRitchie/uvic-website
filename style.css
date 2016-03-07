@@ -1,0 +1,22 @@
+body {
+	background-image: url("bg.jpg");
+	padding: 7px;
+}
+
+.container-fluid {
+	font-family: "Courier New", courier, monospace; 
+}
+
+.myname {
+	font-size: 42px;
+	text-align: center;
+}
+
+.email, .github {
+	font-size: 24px;	
+}
+
+.uvic, .major {
+	font-size: 24px;
+	text-align: right;	
+}

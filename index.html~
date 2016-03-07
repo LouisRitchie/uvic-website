@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			Louis Ritchie's Personal Website
+		</title>
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">			<link rel="stylesheet" href="style.css">	
+	</head>
+	
+	
+<body>
+	<div class="container-fluid">
+		<div class="well">
+			<div class="row">
+				<div class="myname">
+					<p>Louis Ritchie</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<row>
+						<div class="email">
+							<p>louiscritchie@gmail.com</p>
+						</div>
+					</row>
+					<row>
+						<div class="github">
+							<p>github.com/LouisRitchie</p>
+						</div>
+					</row>
+				</div>
+				<div class="col-sm-8">
+					<row>
+						<div class="uvic">
+							<p>University of Victoria</p>
+						</div>
+					</row>
+					<row>
+						<div class="major">
+							<p>2nd Year Math and Computer Science Combined</p>
+						</div>
+					</row>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+</html>
