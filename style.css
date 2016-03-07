@@ -8,15 +8,20 @@ body {
 }
 
 .myname {
-	font-size: 42px;
+	font-size: 200%;
 	text-align: center;
 }
 
-.email, .github {
-	font-size: 24px;	
+.uvic, .major, .email, .github {
+	font-size: 120%;
+	text-align: center;	
 }
 
-.uvic, .major {
-	font-size: 24px;
-	text-align: right;	
+.github {
+
+	color: purple;
+}
+
+.email {
+	color: blue;
 }
