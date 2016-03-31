@@ -1,5 +1,4 @@
-# uvic-website
-## See it here: web.uvic.ca/~louisr/
+#[uvic-website](http://web.uvic.ca/~louisr/)
 
 In order to work on my personal website from anywhere, I'm hosting the code here.
 
