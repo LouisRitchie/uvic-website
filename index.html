@@ -35,41 +35,44 @@
         </div>
     </div>
     <div id="blurb" class="row">
-        <p>I do web development! I also study math and computer science, but that's not as interesting. You should check out those four links in the header, and then you should get in touch with me and tell me about yourself!
+        <p>I am a web developer and I study math and computer science at uVic. You should check out those four links in the header, and then you should get in touch with me and tell me about yourself!
         </p>
         <hr />
-    <div class="row" id="app">
-        <div class="six columns" id="intermission">
-            <h3>Stopwatch</h3>
-            <h1><button type="button" id="start">Start</button>
-            <button type="button" id="reset">Reset</button></h1>
-            <h2 id="timer">0:000</h2>
-            <h5>time elapsed in seconds:milliseconds</h5>
-            <h6></h6>
-        </div>
-        <div class="six columns" id="music-player">
-            <h3>Music Player</h3>
-            <button type="button" id="prev">previous</button>
-            <button type="button" id="play">play</button>
-            <button type="button" id="pause">pause</button>
-            <button type="button" id="next">next</button>
-            <button type="button" id="stop">stop</button>
-            <button type="button" id="shuffle">shuffle</button>
-            <h2 id="about"></h2>
-            <h3 id="music-timer"></h3>
-            
-            <h4>
-            <input type="text" id="addSong" value="Hey Jude"></input><br>
-            <input type="text" id="addLength" value="7:02"></input><br>
-            <button type="button" id="add">Add song</button>
-            </h4>
-            <h5 id="songList"></h5>
-
-        </div>
+    </div>
+    <div id="about" class="row">
+        <h3>things I've done</h3>
+        <ul>
+             <li><a href="/~louisr/intermission/index.html">Stopwatch app</a>
+                <ul>
+                    <li>A basic stopwatch implemented in plain JS.</li>
+                    <li><a href="https://github.com/LouisRitchie/intermission">on Github</a></li>
+                </ul>
+             </li>
+             <li><a href="/~louisr/music-player/index.html">Music Player app</a>
+                 <ul>
+                    <li>A text-based music player in plain JS.</li>
+                    <li><a href="https://github.com/LouisRitchie/intermission">on Github</a></li>
+                </ul>
+             </li>
+             <li><a href="http://hackvictoria.com/">HackVictoria 2016</a>
+                 <ul>
+                    <li>My team took second place in Hack Victora 2016! We built a messageboard with a google maps component.</li>
+                    <li>Built with React/Reflux frontend, Nodejs backend.</li>
+                    <li><a href="https://github.com/luigiplr/emoji-client">on Github - frontend</a></li>
+                    <li><a href="https://github.com/sajattack/vicboard-server">on Github - backend</a></li>
+                 </ul>
+             <li><a href="http://www.battlesnake.io/">BattleSnake 2016</a>
+                 <ul>
+                     <li>I competed at Battlesnake with my team <strong>Kony2016</strong>, composed of <a href="https://github.com/williamgrosset">William Grosset</a>, <a href="https://github.com/cnd-north">Gerrit Van Rensburg</a>, <a href="https://github.com/ColeBoothman">Cole Boothman</a>, and <a href="https://github.com/JordanSteele">Jordan Steele.</a></li>
+                     <li><a href="https://github.com/LouisRitchie/battlesnake-python">see the snake AI, written in Python, on github</a></li>
+                 </ul>
+            </li>
+        </ul>
     </div>
 <div>
 
-<script src="app.js"></script>
+<script src="intermission.js"></script>
+<script src="music-player.js"></script>
 
 </body>
 
