@@ -1,19 +1,28 @@
 body {
-	background-color: #ffffe6;
+	background-color: #b3d7ff;
+    color: #001a33;
 }
 
 .container {
+    padding: 30px;
+	background-color: #ffffe6;
 	font-family: "tahoma", geneva, sans-serif; 
-    font-size: 2.2rem;
-    letter-spacing: 10px;
+    font-size: 1.8rem;
+    border-radius:10px;
 }
 
 #im {
     position: relative;
-    padding-top: 100px;
+    height: 100px;
     background-image: url("http://i.imgur.com/VdlUwX1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+h1 {
+    text-align: center;
 }
 a {
     text-decoration: none;
@@ -29,3 +38,15 @@ a:link {
 a:visited, a:hover, a:active {
     color: #0080ff;
 }
+
+#im:hover {
+    opacity: 0.4;
+}
+
+#blurb {
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
